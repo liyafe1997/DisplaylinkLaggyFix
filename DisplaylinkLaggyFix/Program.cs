@@ -34,7 +34,7 @@ namespace DisplaylinkLaggyFix
 
             foreach (var module in dlProcess.Modules)
             {
-                if (module.ToString().Contains("dlidusb"))
+                if (module.ToString().Contains(DisplayLinkDLLname))
                 {
                     Console.WriteLine(pid.ToString() + " is a DisplayLink process. Priority has been set to high.\r\n");
                     dlProcess.PriorityClass = highPriority;
