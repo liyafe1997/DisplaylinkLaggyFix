@@ -19,4 +19,11 @@ In Windows 7/8/8.1, you can run:
 DisplaylinkLaggyFix_x64.exe DisplayLinkManager DisplayLinkManager
 ```
 You have to run this program with Administrator privileged. You can run it from the desktop to test it at the first time.
-Once you found it is working well, it is suggested to run this program by Windows's Task Scheduler, set the trigger is when computer is started. And set the runner user is set to [SYSTEM].
+
+Once you found it is working well, it is suggested to run this program by Windows's Task Scheduler, set the trigger is when computer is started. And set the runner user is set to [SYSTEM]. And also disable two options about [Stop the task......] in the Settings tab.
+
+![image](https://user-images.githubusercontent.com/18359157/209885320-deb4bdae-8978-410a-a11a-e7d53d5f45ef.png)
+
+![image](https://user-images.githubusercontent.com/18359157/209885380-631375a9-b6ca-4fc1-9e8c-e2093ad36abf.png)
+
+![image](https://user-images.githubusercontent.com/18359157/209885419-63b953a7-6791-48d6-9a49-91feca3a1082.png)
